@@ -1,0 +1,129 @@
+header {
+  padding: 5px 7px;
+  background:#354d4f;
+  color: #e4e8ed;
+  font-size: 20px;
+}
+  
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;  
+  background-color: #d4ffd1;
+}
+  
+.text{
+  color: rgb(14, 59, 8);
+  font-family: 'Segoe UI';
+  font-size: x-large;
+  float: left;
+  margin: 150px;
+}
+#sex{
+  font-size: 20px;
+}
+.login{
+  color: rgb(14, 59, 8);
+  font-family: 'Segoe UI';
+  font-size: 18px;
+  float: right;
+  border-radius: 25px;
+  background-color: rgb(242, 255, 237);
+  border: 2px solid #75b61a;
+  margin-right: 150px;
+  padding: 100px;
+  width: 350px;
+  height: 600px;  
+  margin: 100px;
+  }
+
+#login-header{
+  text-align: center;
+}
+  
+#un, #ps{
+  float: inline-end;
+}
+ 
+#form {
+  margin-top: -50px;
+  display: grid;
+}
+  
+
+.field {
+  border: none;
+  border-bottom: 1px solid #3a3a3a;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  outline: none;
+  padding: 0px 0px 5px 5px;
+}
+.field:hover {
+  background-color: #bababa;
+  border: none;
+  border-bottom: 1px solid #3a3a3a;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  outline: none;
+  padding: 0px 0px 5px 5px;
+}
+#submit, #reset {
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #156f0b;
+  cursor: pointer;
+  
+}
+footer{ 
+  clear: both;
+  position: relative;
+  height: 350px;
+  margin-top: -200px;
+  background:#354d4f;
+  color: #d1ffcd;
+  font-size: 20px;
+}
+  
+  
+  /*For the sprites*/
+  #ytsprite{
+      width: 130px;
+      height: 130px;
+      background: url('images/vecteezy_bwsm.jpg') no-repeat -1108px -258px;
+      border-radius: 200px;
+  }
+  #ytsprite:hover{
+      width: 130px;
+      height: 130px;
+      background: url('images/vecteezy_bwsm.jpg') no-repeat -462px -259px;
+  }
+  
+  #fbsprite{
+      width: 130px;
+      height: 130px;
+      background: url('images/vecteezy_bwsm.jpg') no-repeat -1104px -677px;
+      border-radius: 200px;
+  }
+  
+  #fbsprite:hover{
+     width: 130px;
+     height: 130px;
+     background: url('images/vecteezy_bwsm.jpg') no-repeat -459px -676px; 
+  }
+  
+  #igsprite{
+     width: 130px;
+     height: 130px;
+     background: url('images/vecteezy_bwsm.jpg') no-repeat -682px -50px; 
+     border-radius: 200px;
+  }
+  
+  #igsprite:hover{
+     width: 130px;
+     height: 130px;
+     background: url('images/vecteezy_bwsm.jpg') no-repeat -39px -50px; 
+  }
+  
